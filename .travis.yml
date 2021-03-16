@@ -3,7 +3,7 @@ dist: trusty
 language: ruby
 rvm:
   - 2.2
-  -jruby
+  - jruby
 
 script:
   - bash -xve ./test/travis_ros_install.bash
